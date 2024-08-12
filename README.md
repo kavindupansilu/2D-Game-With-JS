@@ -1,2 +1,2 @@
 # my-games-collection
- Game Developmment With Java Script
+2D GameS Developmment With Java Script
