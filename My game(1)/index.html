@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0,
+    maximum-scale=1.0, minimum-scale=1.0">
+    <title>mygame</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="body" onload="idleanimationstart(); creatboxes();" onkeyup="keycheck(event);">
+    <div class="background" id="background">
+
+        <div class="score" id="score">0</div>
+
+
+<div class="gameover" id="gameover">
+   <div class="d1">GAME OVER!</div>
+   <div class="d2" id="text1">your score</div><br>
+   <button class="btn" id="btn" onclick="restart();">restart</button>
+
+
+
+</div>
+
+
+
+<img src="Idle (1).png" class="boy" id="boy"/>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
